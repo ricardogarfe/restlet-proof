@@ -13,6 +13,8 @@ import org.restlet.resource.Post;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import es.proof.restlet.standalone.base.resource.BaseResource;
+
 /**
  * Resource that manages a list of items.
  * 
