@@ -5,18 +5,12 @@ Proof of concept to create a Restlet application.
 
 [Restlet Framework](http://restlet.org/)
 
-Requirements
-=============
+## Requirements
 
-* JDK 1.7* 
-* Restlet libraries in bin folder: 
-    * org.restlet 2.0.15
-    * org.restlet.json.simple - 2.0.15
-    * org.restlet.ext.simple - 2.0.15
-    * org.restlet.lib.org.json - 2.0
+* Java JDK 1.7 
+* Restlet libraries in lib folder. 
 
-Launch
-=======
+## Launch
 
 Three types of application:
   * `StandAloneServer.java`: Hello World Application (Get, Post, Put without functionality)
@@ -51,8 +45,59 @@ Three types of application:
     es.proof.restlet.standalone.application.FirstResourceApplication
     ```
 
-Tutorials
-==========
+## Test
+
+### Hello World Standalone
+
+* GET 
+```shell
+$ curl -i -H "Accept: application/json" http://localhost:8182/ 
+```
+
+* POST
+```shell
+$ curl -i -H "Accept: application/json" -X POST http://localhost:8182/ 
+```
+
+* PUT
+```shell
+$ curl -i -H "Accept: application/json" -X PUT http://localhost:8182/ 
+```
+
+* DELETE
+```shell
+$ curl -i -H "Accept: application/json" -X DELETE http://localhost:8182/ 
+```
+
+### Hello World First Steps into Restlet JSON
+
+* GET 
+```shell
+$ curl -i -H "Accept: application/json" http://localhost:8182/firstSteps/hello
+```
+
+* POST
+```shell
+$ curl -i -H "Accept: application/json" -X POST http://localhost:8182/firstSteps/hello
+```
+
+* PUT
+```shell
+$ curl -i -H "Accept: application/json" -X PUT http://localhost:8182/firstSteps/hello
+```
+
+* DELETE
+```shell
+$ curl -i -H "Accept: application/json" -X DELETE http://localhost:8182/firstSteps/hello
+```
+
+### First Item Resources with Restlet XML
+
+Launch `FirstResourceServerMain.java` and test using `FirstResourceClientMain.java`.
+
+**TODO:** Convert to Unit Test.
+
+## Tutorials
 
 Some tutorials about Restlet applications and first steps:
 
@@ -60,8 +105,7 @@ Some tutorials about Restlet applications and first steps:
   * [Official tutorial](http://restlet.org/learn/2.0/firstSteps) from restlet.org.
   * [Firs Resource tutorial](http://restlet.org/learn/2.0/firstResource) - Hello World ttorial using Resources. 
 
-Guide
-======
+## Guide
 
 [Restlet framework guide](http://restlet.org/learn/guide/2.1/#/13-restlet/27-restlet.html)
 
