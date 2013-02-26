@@ -56,5 +56,12 @@ Tutorials
 
 Some tutorials about Restlet applications and first steps:
 
-  * [Official tutorial](http://restlet.org/learn/2.0/firstSteps) from restlet.org.
   * [Hello world simple tutorial](http://www.josesandoval.com/2009/06/restlet-20-sample-application-with.html) by Jose Sandoval.
+  * [Official tutorial](http://restlet.org/learn/2.0/firstSteps) from restlet.org.
+  * [Firs Resource tutorial](http://restlet.org/learn/2.0/firstResource) - Hello World ttorial using Resources. 
+
+Guide
+======
+
+[Restlet framework guide](http://restlet.org/learn/guide/2.1/#/13-restlet/27-restlet.html)
+
