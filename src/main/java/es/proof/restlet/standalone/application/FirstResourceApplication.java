@@ -47,7 +47,7 @@ public class FirstResourceApplication extends Application {
                 stringBuilder.append("<td>");
                 stringBuilder.append("<h3>available REST calls</h3>");
                 stringBuilder
-                        .append("<ol><li><a href=\"items\">show items</a> --> return items"
+                        .append("<ol><li><a href=\"app/items\">show items</a> --> return items"
                                 + "and date string</li>");
 
                 stringBuilder.append("</ol>");

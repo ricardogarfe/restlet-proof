@@ -16,7 +16,7 @@
   
     <servlet-mapping>
         <servlet-name>Restlet</servlet-name>
-        <url-pattern>/firstSteps/*</url-pattern>
+        <url-pattern>/firstResource/*</url-pattern>
     </servlet-mapping>
   
   <welcome-file-list>

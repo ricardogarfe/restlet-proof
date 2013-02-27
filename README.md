@@ -8,7 +8,7 @@ Proof of concept to create a Restlet application.
 ## Requirements
 
 * Java JDK 1.7 
-* Restlet libraries in lib folder. 
+* Maven 3.x 
 
 ## Launch
 
@@ -44,6 +44,16 @@ Three types of application:
     RESTLET_HOME/lib/org.restlet.ext.simple-2.0.15.jar:RESTLET_HOME/lib/org.restlet.lib.org.json-2.0.jar \
     es.proof.restlet.standalone.application.FirstResourceApplication
     ```
+
+### Maven Jetty
+
+Using maven command to launch war jetty application:
+
+```shell
+$ mvn clean jetty:run-war -Dmaven.test.skip=true
+```
+
+Go to `http://localhost:8080/firstResource/` and test Get REST service.
 
 ## Test
 

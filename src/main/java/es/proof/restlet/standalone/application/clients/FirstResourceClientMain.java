@@ -48,7 +48,7 @@ public class FirstResourceClientMain {
             ResourceException {
         // Define our Restlet client resources.
         ClientResource itemsResource = new ClientResource(
-                "http://localhost:8182/firstResource/items");
+                "http://localhost:8080/firstResource/items");
         ClientResource itemResource = null;
 
         // Create a new item
