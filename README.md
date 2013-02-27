@@ -12,7 +12,8 @@ Proof of concept to create a Restlet application.
 
 ## Launch
 
-Three types of application:
+### Java launch
+
   * `StandAloneServer.java`: Hello World Application (Get, Post, Put without functionality)
     ```shell
     $ javac -classpath RESTLET_HOME/lib/org.restlet.jar StandAloneServer.java
@@ -103,7 +104,7 @@ $ curl -i -H "Accept: application/json" -X DELETE http://localhost:8182/firstSte
 
 ### First Item Resources with Restlet XML
 
-Launch `FirstResourceServerMain.java` and test using `FirstResourceClientMain.java`.
+Launch maven jetty command and test using `FirstResourceClientMain.java`.
 
 **TODO:** Convert to Unit Test.
 

@@ -31,7 +31,7 @@
  * Restlet is a registered trademark of Restlet S.A.S.
  */
 
-package es.proof.restlet.standalone.application.clients;
+package es.proof.restlet.standalone.application;
 
 import java.io.IOException;
 
